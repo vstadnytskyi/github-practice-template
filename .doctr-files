@@ -1,5 +1,6 @@
+./_images/github-fork.png
 ./_sources/index.rst.txt
-./_sources/installation.rst.txt
+./_sources/introduction.rst.txt
 ./_sources/min_versions.rst.txt
 ./_sources/release-history.rst.txt
 ./_sources/usage.rst.txt
@@ -47,7 +48,7 @@
 ./_static/underscore.js
 ./genindex.html
 ./index.html
-./installation.html
+./introduction.html
 ./min_versions.html
 ./objects.inv
 ./release-history.html

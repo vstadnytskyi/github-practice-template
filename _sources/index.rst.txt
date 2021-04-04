@@ -9,7 +9,7 @@ github practice template Documentation
 .. toctree::
    :maxdepth: 2
 
-   installation
+   introduction
    usage
    release-history
    min_versions
