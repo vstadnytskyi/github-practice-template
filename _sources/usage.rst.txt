@@ -16,11 +16,12 @@ start from creating a GitHub account if you don't have one yet.
 
 Now, you are a proud owner of the forked repository. Next step is to download this repository on your personal computer (aka clone) and create a local copy. to do so, open terminal and change directory to the location where you want to have the repository. To clone the repository type 'git clone https://github.com/{YOUR-GITHUB-NAME}/github-practice-template'
 
+'read more: <https://github.com/vstadnytskyi/github-practice-template>'_
+
 Locations of files
 ----------------------------
 
 
 
  Further reading:
- What is the difference between fork and clone?
- https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/
+ 'What is the difference between fork and clone? <https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/>'_'
