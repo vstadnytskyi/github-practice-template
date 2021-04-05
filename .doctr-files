@@ -2,6 +2,7 @@
 ./_images/pytest.png
 ./_sources/index.rst.txt
 ./_sources/introduction.rst.txt
+./_sources/lessons.rst.txt
 ./_sources/min_versions.rst.txt
 ./_sources/release-history.rst.txt
 ./_sources/usage.rst.txt
@@ -87,6 +88,7 @@
 ./genindex.html
 ./index.html
 ./introduction.html
+./lessons.html
 ./min_versions.html
 ./objects.inv
 ./release-history.html

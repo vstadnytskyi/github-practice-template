@@ -25,7 +25,8 @@ The repository is set up so you can run unit tests to test the codes. The locati
 
 to run the tests you need to
 a) change directory to the local repository directory
-b) just type 'pytest' in the terminal
+b) just type 'pytest' in the terminal and run it. Note: The pytest will fail because there is an error in the code introduced on purpose. See lesson X for details.
+
 Note: install pytest if it is not available.
 
 see terminal example (if you are in the right directory)
@@ -33,6 +34,8 @@ see terminal example (if you are in the right directory)
 .. image:: images/pytest.png
  :width: 400
  :alt: Alternative text
+
+
 
 Locations of files
 ----------------------------

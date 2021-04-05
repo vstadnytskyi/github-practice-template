@@ -11,5 +11,6 @@ github practice template Documentation
 
    introduction
    usage
+   lessons
    release-history
    min_versions
