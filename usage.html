@@ -4,11 +4,10 @@
 <html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
-
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Usage &mdash; github practice template 0.post11+g2af7174 documentation</title>
+  <title>Usage &mdash; github practice template 0.post12+g4135e7a documentation</title>
   
 
   
@@ -68,7 +67,7 @@
             
             
               <div class="version">
-                0.post11+g2af7174
+                0.post12+g4135e7a
               </div>
             
           
@@ -97,6 +96,7 @@
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Usage</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-start">How to start</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-run-unit-tests">How to run unit tests</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#locations-of-files">Locations of files</a></li>
 </ul>
 </li>
@@ -169,29 +169,39 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <section id="usage">
+  <div class="section" id="usage">
 <h1>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h1>
-<section id="how-to-start">
+<div class="section" id="how-to-start">
 <h2>How to start<a class="headerlink" href="#how-to-start" title="Permalink to this headline">¶</a></h2>
 <p>start from creating a GitHub account if you don’t have one yet.</p>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference external" href="https://github.com/join">https://github.com/join</a></p></li>
 </ul>
-<p>Second step would be to ‘fork’ this github repository to your github account. This will effectively make a current copy of this repository.</p>
+<p>Second step would be to ‘fork’ this github repository to your github account, that can be found in the top right corner,(see the example as image below). This will effectively make a current copy of this repository.</p>
 <a class="reference internal image-reference" href="_images/github-fork.png"><img alt="Alternative text" src="_images/github-fork.png" style="width: 400px;" /></a>
 </div></blockquote>
 <p>Now, you are a proud owner of the forked repository. Next step is to download this repository on your personal computer (aka clone) and create a local copy. to do so, open terminal and change directory to the location where you want to have the repository. To clone the repository type ‘git clone <a class="reference external" href="https://github.com">https://github.com</a>/{YOUR-GITHUB-NAME}/github-practice-template’</p>
 <p>‘read more: &lt;<a class="reference external" href="https://github.com/vstadnytskyi/github-practice-template">https://github.com/vstadnytskyi/github-practice-template</a>&gt;’_</p>
-</section>
-<section id="locations-of-files">
+</div>
+<div class="section" id="how-to-run-unit-tests">
+<h2>How to run unit tests<a class="headerlink" href="#how-to-run-unit-tests" title="Permalink to this headline">¶</a></h2>
+<p>The repository is set up so you can run unit tests to test the codes. The location of the test is in ./github_practice_tempalte/tests</p>
+<p>to run the tests you need to
+a) change directory to the local repository directory
+b) just type ‘pytest’ in the terminal
+Note: install pytest if it is not available.</p>
+<p>see terminal example (if you are in the right directory)</p>
+<a class="reference internal image-reference" href="_images/pytest.png"><img alt="Alternative text" src="_images/pytest.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="locations-of-files">
 <h2>Locations of files<a class="headerlink" href="#locations-of-files" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><p>Further reading:
 ‘What is the difference between fork and clone? &lt;<a class="reference external" href="https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/">https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/</a>&gt;’_’</p>
 </div></blockquote>
-</section>
-</section>
+</div>
+</div>
 
 
            </div>
