@@ -36,6 +36,7 @@ Let us create a new simple function that multiplies to float numbers. In this re
       >>> num = multiply(1,3)
       """
       return num1*num2
+
 I have already added it to the file. You just need to uncomment it. Now, when we are happy with the function, let us create a test. Go github_practice_tempalte/tests/test_numerical.py and inside 'class NumericalTest' add a new test function.
 
 .. code-block:: python
