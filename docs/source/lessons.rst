@@ -4,10 +4,16 @@ Lessons
 
 Lesson 1
 ----------------------------
-In this lesson, we will fork the repository to create your own copy on GitHub and clone it to the local drive, so you have access to the files locally.
+In this lesson, we will fork the repository to create your own copy on GitHub and clone(meaning to download) it to the local drive, so you have access to the files locally.
 
 Please see instructions on github.com
 https://docs.github.com/en/github/getting-started-with-github/fork-a-repo
+
+after finishing this part you should have two remote repositories(repos) connected. One will be origin(that is your forked copy) and the second one is upstream (that point at this practice repo)
+
+git@github.com:vstadnytskyi/github-practice-template.git
+or
+https://github.com/vstadnytskyi/github-practice-template.git
 
 Lesson 2
 ----------------------------
@@ -50,3 +56,11 @@ I have already added it to the file. You just need to uncomment it. Next lesson 
 Lesson 4
 ----------------------------
 In this lesson, we will fix the function that does not work correctly and pytest returns "failed" flag.
+
+Lesson 5
+---------------
+creating first pull request.
+
+Go to the file /docs/source/intoduction.rst and delete the phrase "There is a big fat typo in the introducion." add file, commit and create pull request. I will eveluate it, and if everything is good I will comment on it and deny it (so we do not change the practice repo and leave it as it is for future practices).
+
+Note, if you see typos or do want to impove the text elsewhere, please! be my guest and submit pull requests. I am more than happy to get help with making this practice better.
