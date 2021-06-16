@@ -18,7 +18,8 @@ def sum(num1,num2):
     --------
     >>> num = sum(1,3)
     """
-    return num1 + num2 + 1
+    #return num1 + num2 + 1
+    return num1 + num2
 
   # def multiply(num1,num2):
   #     """
